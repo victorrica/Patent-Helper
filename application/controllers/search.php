@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-
+// 정현이 깃허브한다 이기야
 class search extends CI_Controller {
 	function __construct() {
 		parent::__construct();
