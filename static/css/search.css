@@ -1,0 +1,53 @@
+#smartsearch_title{
+	position: relative;
+	top: 10%;
+	font-size: 70px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+}
+#search_text{
+	margin: 0 auto;
+	top: 13%;
+	width: 60%;
+}
+#search_menu{
+	position: relative;
+	top: 20%;
+	width: 80%;
+	margin: 0 auto;
+}
+.p_image{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+}
+.pagination{
+	float: right;
+}
+.wrap-loading{
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+.p_title:before{
+	content: "발명의 명칭 : ";
+	color : #656D78;
+}
+.p_apv:before{
+	content: "출원인 : ";
+	color : #656D78;
+}
+.p_number:before{
+	content: "출원 번호 : ";
+	color : #656D78;
+}
+.p_status:before{
+	content: "등록 상태 : ";
+	color : #656D78;
+}
+.p_content:before{
+	content: "특허 요약 : ";
+	color : #656D78;
+}

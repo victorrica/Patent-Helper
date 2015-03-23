@@ -1,0 +1,48 @@
+#Char{
+	cursor: pointer;
+}
+#character{
+	width : 357px;
+	height : 472px;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.blank{
+	background-image: url('/PH/static/img/teudoli/blank.png');
+}
+.smile{
+	background-image: url('/PH/static/img/teudoli/smile.png');
+}
+.question{
+	background-image: url('/PH/static/img/teudoli/question.png');
+}
+.tooltips {
+  position: relative;
+  display: inline;
+}
+.tooltips span {
+  position: absolute;
+  width: 210px;
+  color: #FFFFFF;
+  background: #FF3DAB;
+  height: auto;
+  margin: auto;
+  padding : 10px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 6px;
+}
+.tooltips span:after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-top: 8px solid #FF3DAB;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
